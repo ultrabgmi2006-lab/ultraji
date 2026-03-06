@@ -1,0 +1,20 @@
+version: v1.0
+name: Ultra Pipeline
+
+agent:
+  machine:
+    type: e1-standard-2
+    os_image: ubuntu2004
+
+blocks:
+  - name: Setup & Run
+    task:
+      jobs:
+        - name: Run Ultra
+          commands:
+            - checkout
+            - sudo apt-get update
+            - pip3 install aiohttp telebot pymongo pytz psutil
+            - chmod +x ultra
+            - ./ultra &
+            - python3 ultra.py
