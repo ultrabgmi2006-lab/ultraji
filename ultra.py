@@ -18,11 +18,11 @@ import psutil
 
 loop = asyncio.get_event_loop()
 
-TOKEN = '7622556470:AAGfiwEMlvWB3dnXcZdISOCOGHPmu99CeeU'
+TOKEN = '7700652488:AAFdZ3kJRLP-v7akI_d9qcDCu_uIJSggpG4'
 MONGO_URI = 'mongodb+srv://Soul:JYAuvlizhw7wqLOb@soul.tsga4.mongodb.net'
-FORWARD_CHANNEL_ID = -1002356645682
-CHANNEL_ID = -1002356645682
-error_channel_id = -1002356645682
+FORWARD_CHANNEL_ID = -1001511249326
+CHANNEL_ID = -1001511249326
+error_channel_id = -1001511249326
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
@@ -88,7 +88,7 @@ async def start_asyncio_loop():
 def create_inline_keyboard():
     markup = types.InlineKeyboardMarkup()
     button3 = types.InlineKeyboardButton(
-        text="❤‍🩹 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 ❤‍🩹", url="https://t.me/+8KCmnVNRC9BiNjZl")
+        text="❤‍🩹 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 ❤‍🩹", url="https://t.me/+_dq4S_GhK50xOGI9")
     button1 = types.InlineKeyboardButton(text="👤 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 𝗢𝘄𝗻𝗲𝗿 👤",
         url="https://t.me/ULTRA_GAMER_OP")
     markup.add(button3)
